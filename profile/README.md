@@ -14,7 +14,7 @@
 
 <br />
 
-**[Gapwise](https://gapwise.ca)** · **[Android](https://github.com/GapwiseHQ/android)** · **[iOS](https://github.com/GapwiseHQ/ios)** · **[AI](https://ai.gapwise.ca)** · **[Data](https://data.gapwise.ca)** · **[Docs](https://docs.gapwise.ca)** · **[Status](https://status.gapwise.ca)**
+**[Gapwise](https://gapwise.ca)** · **[Android](https://github.com/GapwiseHQ/android)** · **[iOS](https://github.com/GapwiseHQ/ios)** · **[AI](https://ai.gapwise.ca)** · **[Data](https://data.gapwise.ca)** · **[Docs](https://docs.gapwise.ca)** · **[CLI](https://github.com/GapwiseHQ/cli)** · **[Status](https://status.gapwise.ca)**
 
 <br />
 
@@ -57,7 +57,7 @@ Timetable files are parsed locally in the browser. Arithmetic, routing, travel t
 | **[`ios`](https://github.com/GapwiseHQ/ios)** | Native Swift + SwiftUI iOS implementation and Apple-platform integration | iOS |
 | **[`ai`](https://github.com/GapwiseHQ/ai)** | OAuth/MCP boundary for explicitly delegated student context and bounded AI actions | [ai.gapwise.ca](https://ai.gapwise.ca) |
 | **[`data`](https://github.com/GapwiseHQ/data)** | Canonical public campus data, provenance, schemas, validation, and distribution | [data.gapwise.ca](https://data.gapwise.ca) |
-| **[`cli`](https://github.com/GapwiseHQ/cli)** | Repeatable university scaffolding, validation, and local development | Developer tool |
+| **[`cli`](https://github.com/GapwiseHQ/cli)** | Public campus discovery and queries, plus university scaffolding and validation | [CLI guide](https://docs.gapwise.ca/cli/) |
 | **[`docs`](https://github.com/GapwiseHQ/docs)** | Public developer documentation for APIs, SDKs, data, security, native integration, and AI/MCP | [docs.gapwise.ca](https://docs.gapwise.ca) |
 | **[`status`](https://github.com/GapwiseHQ/status)** | Independent service-health monitoring and incident communication | [status.gapwise.ca](https://status.gapwise.ca) |
 
