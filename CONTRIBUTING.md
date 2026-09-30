@@ -56,7 +56,7 @@ The ecosystem follows a simple rule:
 
 In particular:
 
-- [`data`](https://github.com/GapwiseHQ/data) owns shared public University of Toronto campus facts;
+- [`data`](https://github.com/GapwiseHQ/data) owns shared public multi-university campus facts and provenance;
 - the core [`gapwise`](https://github.com/GapwiseHQ/gapwise) domain owns timetable/gap/routing semantics;
 - [`android`](https://github.com/GapwiseHQ/android) implements the native Android experience without becoming a second source of canonical domain truth;
 - [`ios`](https://github.com/GapwiseHQ/ios) implements the native iOS experience without becoming a second source of canonical domain truth;

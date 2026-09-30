@@ -26,7 +26,7 @@
 
 Gapwise turns a university timetable into a model of the day around it: **what is next, how much usable time exists between classes, where a student can realistically go, when they need to leave, and how certain the underlying campus information is.**
 
-Gapwise supports **eleven universities** across Canada from one canonical web application:
+Gapwise supports **13 universities across 15 campus models** in Canada from one canonical web application:
 
 | University | Edition | Scope | Timetable Source |
 | --- | --- | --- | --- |
@@ -41,10 +41,12 @@ Gapwise supports **eleven universities** across Canada from one canonical web ap
 | **University of Guelph** | [guelph.gapwise.ca](https://guelph.gapwise.ca) | Guelph campus | WebAdvisor schedule text & `.ics` |
 | **University of Ottawa** | [uottawa.gapwise.ca](https://uottawa.gapwise.ca) | Downtown Ottawa campus | uoCampus schedule text & `.ics` |
 | **Brock University** | [brock.gapwise.ca](https://brock.gapwise.ca) | St. Catharines campus | BrockDB / Student Portal text & `.ics` |
+| **University of British Columbia** | [ubc.gapwise.ca](https://ubc.gapwise.ca) | Vancouver / Point Grey campus | Workday View My Courses table |
+| **University of Waterloo** | [waterloo.gapwise.ca](https://waterloo.gapwise.ca) | Main campus | Quest Class Schedule list view |
 
 Each university provides its own timetable adapter, campus data model, and branding configuration. The shared application, pedestrian routing, gap planner, and UI are not duplicated.
 
-The web campus explorer includes source-backed building identities and footprints for all 11 supported universities. Reviewed pedestrian routing is available for UTM, Carleton, TMU, Queen's, Laurier, York, McMaster, Western, Guelph, uOttawa, and Brock.
+The web campus explorer includes source-backed building identities and footprints for all 13 supported universities. Pedestrian routing is available across all 15 campus models, with provenance and accessibility certainty preserved per campus.
 
 Timetable files are parsed locally in the browser. Arithmetic, routing, travel time, gap budgets, destination feasibility, and leave-by calculations are deterministic rather than delegated to a language model.
 
@@ -122,7 +124,7 @@ Campus facts and routing evidence belong in **[`data`](https://github.com/Gapwis
 
 <div align="center">
 
-**Independent student software. Not affiliated with or endorsed by the University of Toronto, Carleton University, Toronto Metropolitan University, Queen's University, Wilfrid Laurier University, York University, or McMaster University.**
+**Independent student software. Not affiliated with, endorsed by, or an official service of any supported university.**
 
 <br />
 
