@@ -26,11 +26,11 @@
 
 Gapwise turns a university timetable into a model of the day around it: **what is next, how much usable time exists between classes, where a student can realistically go, when they need to leave, and how certain the underlying campus information is.**
 
-Gapwise supports **14 universities across 16 campus models** in Canada from one canonical web application:
+Gapwise supports **38 universities across 90 campus models** from one canonical web application. Selected editions are listed below; the [university directory](https://gapwise.ca/universities) lists the full supported registry. The global landing page is at [gapwise.ca](https://gapwise.ca), and U of T students can enter through the [UTM](https://utm.gapwise.ca), [UTSG](https://utsg.gapwise.ca), and [UTSC](https://utsc.gapwise.ca) campus editions.
 
 | University | Edition | Scope | Timetable Source |
 | --- | --- | --- | --- |
-| **University of Toronto** | [gapwise.ca](https://gapwise.ca) | Mississauga, St. George, Scarborough | ACORN calendar export (`.ics`) |
+| **University of Toronto** | [uoft.gapwise.ca](https://uoft.gapwise.ca) | Mississauga, St. George, Scarborough | ACORN calendar export (`.ics`) |
 | **Carleton University** | [carleton.gapwise.ca](https://carleton.gapwise.ca) | Ottawa campus | Carleton Central schedule text & `.ics` |
 | **Toronto Metropolitan University** | [tmu.gapwise.ca](https://tmu.gapwise.ca) | Downtown Toronto campus | MyServiceHub (RAMSS) & Google Calendar |
 | **Queen's University** | [queens.gapwise.ca](https://queens.gapwise.ca) | Kingston campus | SOLUS Student Center subscription & text |
@@ -47,7 +47,7 @@ Gapwise supports **14 universities across 16 campus models** in Canada from one 
 
 Each university provides its own timetable adapter, campus data model, and branding configuration. The shared application, pedestrian routing, gap planner, and UI are not duplicated.
 
-The web campus explorer includes source-backed building identities and footprints for all 14 supported universities. Pedestrian routing is available across all 16 campus models, with provenance and accessibility certainty preserved per campus.
+The web campus explorer uses source-backed building identities and footprints. Pedestrian routing, entrance coverage, and accessibility evidence vary by campus; the application preserves provenance and uncertainty.
 
 Timetable files are parsed locally in the browser. Arithmetic, routing, travel time, gap budgets, destination feasibility, and leave-by calculations are deterministic rather than delegated to a language model.
 
